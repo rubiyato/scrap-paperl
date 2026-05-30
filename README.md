@@ -59,7 +59,7 @@ vncserver
 ### 6. connect via avnc app
 1. open the **avnc** app.
 2. connect to `localhost 5901`
-3. type your password and hit connect ✨
+3. type your password and tell that save button to stop hitting itself(aka click it)
 
 ---
 
