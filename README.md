@@ -4,8 +4,9 @@ yossup gangers js copy n paste this to the termux ya jus downloaded one by one f
 
 ---
 
-### 1. setup storage & install tools
-*note it will ask for storage permission here don't worry that is just for the thing it's needed for here )* 
+### 1.
+*note1: it will ask for storage permission here don't worry that is just for the thing it's needed for here )*
+*note2: you gotta download the three files ending with AA, AB and AC before doing alla this btw*
 
 go ahead and tap allow
 ```bash
@@ -19,7 +20,7 @@ pkg install git git-lfs proot-distro -y
 
 ---
 
-### 2. clone the repository
+### 2.
 ```bash
 cd /sdcard/download
 git clone https://github.com
@@ -28,14 +29,14 @@ cd scrap-paper
 
 ---
 
-### 3. recombine the backup parts
+### 3.
 ```bash
 cat linux_backup_part_* > linux_backup.tar
 ```
 
 ---
 
-### 4. extract the linux environment
+### 4.
 ```bash
 cd /data/data/com.termux/files/usr/var/lib/proot-distro/containers
 tar -xvf /sdcard/download/scrap-paper/linux_backup.tar
@@ -43,7 +44,7 @@ tar -xvf /sdcard/download/scrap-paper/linux_backup.tar
 
 ---
 
-### 5. launching your desktop
+### 5.
 type this command in termux
 ```bash
 proot-distro login ubuntu
