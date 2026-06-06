@@ -5,8 +5,8 @@ yossup gangers js copy n paste this to the termux ya jus downloaded one by one f
 ---
 
 ### 1.
-*note1: it will ask for storage permission here don't worry that is just for the thing it's needed for here )*
-*note2: you gotta download the three files ending with AA, AB and AC before doing alla this btw*
+*note1: it will ask for storage permission here don't worry that is just for the thing it's needed for here ykwim??*
+*note2: dont forget to download the three files that end in aa, ab and ac else alla this wont work*
 
 go ahead and tap allow
 ```bash
